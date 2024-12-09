@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+</head>
+<body>
+  <div id="container">
+    <header>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </header>
+
+    <nav>
+      <h2>calc</h2>
+      <div class="toggle">
+        <h5>THEME</h5>
+        <div class="toggle-btn">
+          <i class="fa-solid fa-circle"></i>
+        </div>
+      </div>
+    </nav>
+
+    <div id="display_screen">
+      <h1>0</h1>
+    </div>
+
+    <div id="buttons">
+      <div class="row">
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="delete">DEL</button>
+      </div>
+      <div class="row">
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="operator">+</button>
+      </div>
+      <div class="row">
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="operator">-</button>
+      </div>
+      <div class="row">
+        <button class="dot">.</button>
+        <button class="number">0</button>
+        <button class="operator">/</button>
+        <button class="operator">x</button>
+      </div>
+      <div class="row">
+        <button class="reset">RESET</button>
+        <button class="equals">=</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
